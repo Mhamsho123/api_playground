@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+}
+
+#color-picker {
+    width: 50px;
+    height: 40px;
+}
+
+#mode {
+    width: 200px;
+}
+
+#get-colors {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#colors {
+    display: flex;
+    height: 80vh;
+}
+
+.color-column {
+    flex: 1;
+    text-align: center;
+}
+
+.color-box {
+    height: 100%;
+}
+
+.color-column p {
+    font-size: 12px;
+    font-weight: bold;
+}
